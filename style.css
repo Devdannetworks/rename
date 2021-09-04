@@ -10,7 +10,9 @@
 }
 
 /*********** global styles start ***********/
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --light-mode-main-background: #fff;
   --light-mode-sub-background: #f5f5f5;

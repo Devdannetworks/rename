@@ -43,7 +43,6 @@
 
 .services-header {
   padding-bottom: 20px;
-  position: relative;
   padding-top: 15px;
   text-align: center;
   transition: all 0.5s ease-in;
@@ -132,7 +131,13 @@ label {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
+  .services-content div {
+    width: 17em;
+  }
+}
+
+@media (max-width: 300px) {
   .services-content div {
     width: 15em;
   }
